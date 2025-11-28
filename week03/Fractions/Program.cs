@@ -19,9 +19,9 @@ class Program
         Console.WriteLine($"Fraction 2 as decimal: {fraction2.GetDecimalValue()}");
         Console.WriteLine($"Fraction 3 as decimal: {fraction3.GetDecimalValue()}"); 
         Console.WriteLine();
-        Console.WriteLine($"Fraction 1 using ToString(): {fraction1.ToString()}");
-        Console.WriteLine($"Fraction 2 using ToString(): {fraction2.ToString()}");
-        Console.WriteLine($"Fraction 3 using ToString(): {fraction3.ToString()}");
+        Console.WriteLine($"Fraction 1: {fraction1.ToString()}");
+        Console.WriteLine($"Fraction 2: {fraction2.ToString()}");
+        Console.WriteLine($"Fraction 3: {fraction3.ToString()}");
 
     }
 }
