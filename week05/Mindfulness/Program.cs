@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Threading;
 
-class Program
+partial class Program
 {
     static void Main(string[] args)
     // Added Keeping a log of how many times activities were performed.
